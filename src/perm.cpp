@@ -9,7 +9,6 @@ NumericMatrix perm(int n, NumericVector v){
    * native R way to do this without calling the sample function inside of a loop,
    * which is very slow.
    * 
-   * 
    * ISSUE: Does not currently work with set.seed in R. 
    */
   int l = v.size();

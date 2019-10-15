@@ -1,4 +1,4 @@
-#A ggplot2 extension that plots prexiction intervals around a 
+#A ggplot2 extension that plots prediction intervals around a 
 #linear regression line
 
 StatPredInt = ggplot2::ggproto("StatPrIntUpr", ggplot2::Stat,
